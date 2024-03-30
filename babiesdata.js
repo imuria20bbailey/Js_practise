@@ -29,7 +29,23 @@ const babyDummyData = {
         periodOfStay:"fullday",
         babyNumber:"B002",
         image:"https://melissadevoephotography.com/wp-content/uploads/2022/04/Youngsville-baby-photographer.jpg"   
-    }]                 //an object with an array
+    },
+
+    {
+        id:3,
+        name:"job okot",
+        gender:"male",
+        age:"3",
+        location:"kira",
+        personbroughtBy:"parent",
+        timeofArrival:"7:30",
+        parentsName:["fname", "lname"],
+        feeInUgx:20000,
+        periodOfStay:"fullday",
+        babyNumber:"B003",
+        image:"https://melissadevoephotography.com/wp-content/uploads/2022/04/Youngsville-baby-photographer.jpg"   
+    }
+]                 //an object with an array
 };
 
 export {babyDummyData};
